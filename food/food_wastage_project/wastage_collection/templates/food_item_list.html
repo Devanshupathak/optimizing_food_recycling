@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Items</title>
+</head>
+<body>
+    <h1>Food Items</h1>
+    <ul>
+        {% for food_item in food_items %}
+            <li>{{ food_item.name }} - Expiration Date: {{ food_item.expiration_date }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

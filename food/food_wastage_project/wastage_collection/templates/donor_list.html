@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Donors</title>
+</head>
+<body>
+    <h1>Donors</h1>
+    <ul>
+        {% for donor in donors %}
+            <li>{{ donor.name }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
